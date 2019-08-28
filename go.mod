@@ -23,7 +23,6 @@ require (
 	github.com/go-chi/cors v1.0.0
 	github.com/go-ini/ini v1.39.0 // indirect
 	github.com/go-sql-driver/mysql v1.4.0
-	github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6 // indirect
 	github.com/golang/mock v1.1.1
 	github.com/google/go-cmp v0.3.0
 	github.com/google/go-jsonnet v0.12.1
@@ -56,7 +55,7 @@ require (
 	github.com/smartystreets/goconvey v0.0.0-20190731233626-505e41936337 // indirect
 	github.com/statisticsnorway/drone-runtime v1.2.0
 	github.com/statisticsnorway/drone-yaml v1.2.3
-	github.com/ugorji/go v1.1.7 // indirect
+	github.com/ugorji/go/codec v1.1.7 // indirect
 	github.com/unrolled/secure v0.0.0-20181022170031-4b6b7cf51606
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
