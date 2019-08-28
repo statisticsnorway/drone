@@ -7,7 +7,7 @@ package status
 import (
 	"testing"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 	"github.com/drone/go-scm/scm"
 )
 

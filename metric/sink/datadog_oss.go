@@ -19,7 +19,7 @@ package sink
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 )
 
 // Datadog defines a no-op sink to datadog.

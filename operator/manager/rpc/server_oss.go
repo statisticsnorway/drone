@@ -22,8 +22,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/operator/manager"
 )
 
 // Server is a no-op rpc server.

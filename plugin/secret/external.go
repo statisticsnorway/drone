@@ -10,9 +10,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/logger"
+	"github.com/statisticsnorway/drone-yaml/yaml"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/logger"
 
 	"github.com/drone/drone-go/drone"
 	"github.com/drone/drone-go/plugin/secret"

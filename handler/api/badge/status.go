@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 
 	"github.com/go-chi/chi"
 )

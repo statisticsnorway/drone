@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 	"github.com/drone/go-license/license"
 	"github.com/drone/go-license/license/licenseutil"
 )

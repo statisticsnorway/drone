@@ -21,7 +21,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/drone/drone/handler/api/errors"
+	"github.com/statisticsnorway/drone/handler/api/errors"
 )
 
 // indent the json-encoded API responses

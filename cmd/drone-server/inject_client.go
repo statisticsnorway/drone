@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/drone/drone/cmd/drone-server/config"
+	"github.com/statisticsnorway/drone/cmd/drone-server/config"
 	"github.com/drone/go-scm/scm"
 	"github.com/drone/go-scm/scm/driver/bitbucket"
 	"github.com/drone/go-scm/scm/driver/gitea"

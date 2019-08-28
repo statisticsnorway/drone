@@ -9,9 +9,9 @@ package global
 import (
 	"database/sql"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
-	"github.com/drone/drone/store/shared/encrypt"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/store/shared/db"
+	"github.com/statisticsnorway/drone/store/shared/encrypt"
 )
 
 // helper function converts the User structure to a set

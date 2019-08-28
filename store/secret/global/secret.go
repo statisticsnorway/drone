@@ -9,9 +9,9 @@ package global
 import (
 	"context"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
-	"github.com/drone/drone/store/shared/encrypt"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/store/shared/db"
+	"github.com/statisticsnorway/drone/store/shared/encrypt"
 )
 
 // New returns a new global Secret database store.

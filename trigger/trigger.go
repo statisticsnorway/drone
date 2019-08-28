@@ -20,13 +20,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone-yaml/yaml/converter"
-	"github.com/drone/drone-yaml/yaml/linter"
-	"github.com/drone/drone-yaml/yaml/signer"
+	"github.com/statisticsnorway/drone-yaml/yaml"
+	"github.com/statisticsnorway/drone-yaml/yaml/converter"
+	"github.com/statisticsnorway/drone-yaml/yaml/linter"
+	"github.com/statisticsnorway/drone-yaml/yaml/signer"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/trigger/dag"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/trigger/dag"
 
 	"github.com/sirupsen/logrus"
 )

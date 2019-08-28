@@ -11,12 +11,12 @@ import (
 	"flag"
 	"time"
 
-	"github.com/drone/drone-runtime/engine/docker"
-	"github.com/drone/drone/cmd/drone-agent/config"
-	"github.com/drone/drone/operator/manager/rpc"
-	"github.com/drone/drone/operator/runner"
-	"github.com/drone/drone/plugin/registry"
-	"github.com/drone/drone/plugin/secret"
+	"github.com/statisticsnorway/drone-runtime/engine/docker"
+	"github.com/statisticsnorway/drone/cmd/drone-agent/config"
+	"github.com/statisticsnorway/drone/operator/manager/rpc"
+	"github.com/statisticsnorway/drone/operator/runner"
+	"github.com/statisticsnorway/drone/plugin/registry"
+	"github.com/statisticsnorway/drone/plugin/secret"
 	"github.com/drone/signal"
 
 	"github.com/sirupsen/logrus"

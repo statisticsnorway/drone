@@ -8,7 +8,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 )
 
 var noContext = context.Background()

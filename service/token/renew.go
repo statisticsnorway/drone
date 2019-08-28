@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 
 	"github.com/drone/go-scm/scm"
 	"github.com/drone/go-scm/scm/transport/oauth2"

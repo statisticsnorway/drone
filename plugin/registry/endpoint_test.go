@@ -10,7 +10,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 	"github.com/google/go-cmp/cmp"
 	"github.com/h2non/gock"
 )

@@ -10,8 +10,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/request"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/handler/api/request"
 
 	"github.com/sirupsen/logrus"
 )

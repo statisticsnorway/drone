@@ -17,7 +17,7 @@ package config
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 )
 
 // Repository returns a configuration service that fetches the yaml

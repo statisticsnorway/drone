@@ -12,8 +12,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/drone/mock"
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/mock"
+	"github.com/statisticsnorway/drone/core"
 	"github.com/sirupsen/logrus"
 
 	"github.com/go-chi/chi"

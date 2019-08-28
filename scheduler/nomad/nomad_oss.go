@@ -19,7 +19,7 @@ package nomad
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 )
 
 type noop struct{}

@@ -17,9 +17,9 @@ package auth
 import (
 	"net/http"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/request"
-	"github.com/drone/drone/logger"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/handler/api/request"
+	"github.com/statisticsnorway/drone/logger"
 )
 
 // HandleAuthentication returns an http.HandlerFunc middleware that authenticates

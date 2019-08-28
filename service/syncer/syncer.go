@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 
 	"github.com/sirupsen/logrus"
 )

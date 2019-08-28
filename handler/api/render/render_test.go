@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/drone/handler/api/errors"
+	"github.com/statisticsnorway/drone/handler/api/errors"
 )
 
 func TestWriteError(t *testing.T) {

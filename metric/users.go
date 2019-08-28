@@ -9,7 +9,7 @@ package metric
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

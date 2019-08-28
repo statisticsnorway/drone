@@ -19,8 +19,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/store/shared/db"
 	"github.com/drone/go-scm/scm"
 
 	"github.com/hashicorp/go-multierror"

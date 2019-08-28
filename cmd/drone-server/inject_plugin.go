@@ -15,13 +15,13 @@
 package main
 
 import (
-	spec "github.com/drone/drone/cmd/drone-server/config"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/plugin/admission"
-	"github.com/drone/drone/plugin/config"
-	"github.com/drone/drone/plugin/registry"
-	"github.com/drone/drone/plugin/secret"
-	"github.com/drone/drone/plugin/webhook"
+	spec "github.com/statisticsnorway/drone/cmd/drone-server/config"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/plugin/admission"
+	"github.com/statisticsnorway/drone/plugin/config"
+	"github.com/statisticsnorway/drone/plugin/registry"
+	"github.com/statisticsnorway/drone/plugin/secret"
+	"github.com/statisticsnorway/drone/plugin/webhook"
 	"github.com/drone/go-scm/scm"
 
 	"github.com/google/wire"

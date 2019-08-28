@@ -12,10 +12,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/errors"
-	"github.com/drone/drone/handler/api/request"
-	"github.com/drone/drone/mock"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/handler/api/errors"
+	"github.com/statisticsnorway/drone/handler/api/request"
+	"github.com/statisticsnorway/drone/mock"
 
 	"github.com/go-chi/chi"
 	"github.com/golang/mock/gomock"

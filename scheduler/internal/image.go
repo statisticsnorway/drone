@@ -8,13 +8,10 @@ package internal
 
 import (
 	"fmt"
-
-	"github.com/drone/drone/version"
 )
 
 var defaultImage = fmt.Sprintf(
-	"drone/controller:%s",
-	version.Version.String(),
+	"eu.gcr.io/bip-nullfem/ssb/drone-controller:1.3.0",
 )
 
 // DefaultImage returns the default dispatch image if none

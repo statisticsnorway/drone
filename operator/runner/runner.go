@@ -25,19 +25,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-runtime/runtime"
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone-yaml/yaml/compiler"
-	"github.com/drone/drone-yaml/yaml/compiler/transform"
-	"github.com/drone/drone-yaml/yaml/converter"
-	"github.com/drone/drone-yaml/yaml/linter"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
-	"github.com/drone/drone/plugin/registry"
-	"github.com/drone/drone/plugin/secret"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/statisticsnorway/drone-yaml/yaml"
+	"github.com/statisticsnorway/drone-yaml/yaml/compiler"
+	"github.com/statisticsnorway/drone-yaml/yaml/compiler/transform"
+	"github.com/statisticsnorway/drone-yaml/yaml/converter"
+	"github.com/statisticsnorway/drone-yaml/yaml/linter"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/operator/manager"
+	"github.com/statisticsnorway/drone/plugin/registry"
+	"github.com/statisticsnorway/drone/plugin/secret"
+	"github.com/statisticsnorway/drone/store/shared/db"
 	"github.com/drone/envsubst"
+	"github.com/statisticsnorway/drone-runtime/engine"
+	"github.com/statisticsnorway/drone-runtime/runtime"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/sirupsen/logrus"
@@ -303,6 +303,7 @@ func (r *Runner) Run(ctx context.Context, id int64) error {
 				"io.drone.expires":        fmt.Sprint(time.Now().Add(time.Duration(m.Repo.Timeout)*time.Minute + time.Hour).Unix()),
 				"io.drone.created":        fmt.Sprint(time.Now().Unix()),
 				"io.drone.protected":      "false",
+				"istio-injection":         "enabled",
 			},
 		), // TODO append labels here
 		transform.WithLimits(

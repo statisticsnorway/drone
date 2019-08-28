@@ -11,7 +11,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/drone/drone/core"
+	"github.com/statisticsnorway/drone/core"
 
 	"github.com/google/go-jsonnet"
 )

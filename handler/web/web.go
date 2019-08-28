@@ -18,9 +18,9 @@ import (
 	"net/http"
 
 	"github.com/drone/drone-ui/dist"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/web/landingpage"
-	"github.com/drone/drone/logger"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/handler/web/landingpage"
+	"github.com/statisticsnorway/drone/logger"
 	"github.com/drone/go-login/login"
 	"github.com/drone/go-scm/scm"
 

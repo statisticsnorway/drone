@@ -9,8 +9,8 @@ package trigger
 // import (
 // 	"testing"
 
-// 	"github.com/drone/drone/core"
-// 	"github.com/drone/drone/mock"
+// 	"github.com/statisticsnorway/drone/core"
+// 	"github.com/statisticsnorway/drone/mock"
 // 	"github.com/drone/go-scm/scm"
 
 // 	"github.com/golang/mock/gomock"

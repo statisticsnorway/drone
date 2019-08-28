@@ -28,9 +28,9 @@ import (
 
 	"github.com/go-chi/chi"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/operator/manager"
+	"github.com/statisticsnorway/drone/store/shared/db"
 )
 
 // default http request timeout

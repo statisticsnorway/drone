@@ -17,9 +17,9 @@ package registry
 import (
 	"context"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/logger"
-	"github.com/drone/drone/plugin/registry/auths"
+	"github.com/statisticsnorway/drone/core"
+	"github.com/statisticsnorway/drone/logger"
+	"github.com/statisticsnorway/drone/plugin/registry/auths"
 )
 
 // Static returns a new static credentials controller.
